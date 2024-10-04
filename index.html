@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Srivastav</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <h1 class="logo">A<span>bhishek</span></h1>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1 class="homeh1">A<span>bhishek</span> Srivastav</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Passionate and dedicated MERN stack developer with a strong foundation in MongoDB, Express.js,
+                React, and Node.js. Seeking to leverage my skills in full-stack web development to contribute to a
+                dynamic team, build innovative applications, and drive impactful projects. Committed to continuous
+                learning and excellence, I aim to deliver robust and scalable solutions that enhance user experiences
+                and meet business objectives.
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/abhishek-srivastav-1497b4281/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/abhishekkrsrivastav"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/call_me_panda____/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100007466165664"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <!-- <a href="#" class="btn">Download CV</a> -->
+        </div>
+        <div class="home-img">
+            <img src="imgs/passport photo abhishek.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/imgs/passport photo abhishek.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Mern Stack Developer</h3>
+            <p>Passionate and dedicated MERN stack developer with a strong foundation in MongoDB, Express.js,
+                React, and Node.js. Seeking to leverage my skills in full-stack web development to contribute to a
+                dynamic team, build innovative applications, and drive impactful projects. Committed to continuous
+                learning and excellence, I aim to deliver robust and scalable solutions that enhance user experiences
+                and meet business objectives.</p>
+          
+            <!-- <a href="#" class="btn">Github Link</a> -->
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <i class="fa-solid fa-book" style="color: #FFD43B;"></i>
+                <h3>BookNook Website</h3>
+                <p> Discover a lovely Bookstore website using Mern stack that basically has book collection, exploring their details, and providing a delightful experience. 
+                </p>
+                <a href="https://github.com/abhishekkrsrivastav/Bookstore" class="btn">Github Link</a>
+            </div>
+            <div class="projects-box">
+                <i class="fa-solid fa-ticket" style="color: #FFD43B;"></i>
+                <h3>Movie Guide App </h3>
+                <p>I developed a movie guide app that allows users to explore movie details, ratings, and reviews, offering personalized recommendations and smooth navigation.
+                </p>
+                <a href="#" class="btn">Github Link</a>
+            </div>
+
+            <div class="projects-box">
+                <i class="fa-regular fa-address-book" style="color: #FFD43B;"></i>
+                <h3>Portfolio</h3>
+                <p> I built a responsive and interactive portfolio website, showcasing my skills, projects and smooth navigation for an engaging user experience.
+                </p>
+                <a href="#" class="btn">Github Link</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box"> 
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Abhishek Srivastav | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+     </footer>
+
+     <!-- scroll -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!-- typed -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</body>
+
+</html>
